@@ -306,6 +306,17 @@ body
     
     }
 }
+/*menus*/
+
+.container
+{
+    .container_heading
+    {
+        text-align: center;
+        font-size: 2.5em;
+    }
+}
+
 /*menu_note*/
 
 .card
@@ -907,6 +918,10 @@ body
 
     .container
     {
+        .container_heading
+        {
+            margin:25px 10px 45px 10px;
+        }
         .card
         {
             .card_course
@@ -946,7 +961,7 @@ body
     }
 }
 
-@media screen and (max-width:800px) and (min-width:460px)
+@media screen and (max-width:820px) and (min-width:460px)
 
 {
     /*responsive page_acceuil*/
@@ -1004,7 +1019,7 @@ body
     }
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:820px)
 {
     /*reponsive menus*/
 
