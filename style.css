@@ -319,7 +319,7 @@ body a {
 .card_note .card_course .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #f05160;
   position: absolute;
   bottom: -5%;
@@ -388,7 +388,7 @@ body a {
 .card_chic .card_course--starter .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #c77412;
   position: absolute;
   bottom: -20%;
@@ -405,7 +405,7 @@ body a {
 .card_chic .card_course--main-course .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #ad6bab;
   position: absolute;
   bottom: -20%;
@@ -422,7 +422,7 @@ body a {
 .card_chic .card_course--dessert .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #8f5aff;
   position: absolute;
   bottom: -20%;
@@ -461,7 +461,7 @@ body a {
 .card_delice .card_course--starter .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #0228dd;
   position: absolute;
   bottom: -10%;
@@ -478,7 +478,7 @@ body a {
 .card_delice .card_course--main-course .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #0670f3;
   position: absolute;
   bottom: -10%;
@@ -495,7 +495,7 @@ body a {
 .card_delice .card_course--dessert .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #229df9;
   position: absolute;
   bottom: -10%;
@@ -535,7 +535,7 @@ body a {
 .card_palette .card_course .separation h2::after {
   content: "";
   height: 3px;
-  width: 0px;
+  width: 0%;
   background: #b8fa7c;
   position: absolute;
   bottom: -15%;
@@ -584,11 +584,6 @@ body a {
   .container .btn {
     width: 80%;
     font-size: 1.4em;
-  }
-
-  .container .menu .menu_card .menu_heading {
-    text-align: center;
-    margin-bottom: 10px;
   }
 
   .footer {
@@ -645,6 +640,12 @@ body a {
   }
 }
 @media screen and (max-width: 820px) {
+  /*responsive page_accueil*/
+  .container .menu .menu_card .menu_heading {
+    text-align: center;
+    margin: 0 30px 10px 30px;
+  }
+
   /*reponsive menus*/
   .container .header {
     width: 100%;
