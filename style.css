@@ -55,6 +55,7 @@ body a {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  max-width: 1200px;
 }
 
 .menu_card {
